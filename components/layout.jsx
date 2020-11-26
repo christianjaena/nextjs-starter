@@ -3,7 +3,7 @@ import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Your Name';
+const name = 'Christian Jaena';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
 				{home ? (
 					<>
 						<img
-							src='/public/images/clean_code.jpg'
+							src='../images/clean_code.jpg'
 							className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
 							alt={name}
 						/>
